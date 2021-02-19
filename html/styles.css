@@ -1,0 +1,180 @@
+
+.playerStats{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 11px;
+	left: 200px;
+	bottom: 20px;
+
+	left: 88%;
+	bottom: 9.75%;
+}
+
+.stat{
+	color: #fff;
+	width: 220px;
+	height: 7px;
+	position: relative;
+	margin-bottom: 7px;
+}
+
+.stat span{
+	position: absolute;
+	font-size: 12px;
+	text-transform: uppercase;
+	top: 100%;
+	transform: translateY(-50%);
+	margin-left: 10px;
+}
+
+#statusHud {
+	width: 14.2%;
+	position: absolute;
+	bottom: 8%;
+	left: 85.45%;
+	display: flex;
+}
+
+#AntrasHud {
+	width: 14.2%;
+	position: absolute;
+	bottom: 5%;
+	left: 84.84%;
+	transform: rotate(-90deg);
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+}
+
+#varHealth {
+	width: 130px;
+	margin-left: 0px !important;
+} 
+#varArmor {
+	width: 130px;
+
+}
+
+#varHealth > #boxSetHealth {
+	background: rgb(176, 43, 43);
+}
+#varArmor > #boxSetArmour {
+	background: rgb(66, 137, 255);
+}
+
+#varHunger > #boxSetHunger {
+	background: rgb(225, 121, 11);
+}
+
+#varThirst > #boxSetThirst {
+	background: rgb(11, 131, 225);
+}
+
+#varOxygen > #boxSetOxygen {
+	background: rgb(140, 176, 186);
+}
+
+.barGyvybes {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 130px;
+	height: 7px;
+	border-radius: 11px;
+	float: left;
+	padding: 3px; 
+	margin-right: 2px;
+ 	margin-left: 2px;
+	z-index: 98;
+}
+
+.barSarvai {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 130px;
+	height: 7px;
+	border-radius: 11px;
+	float: left;
+	padding: 3px; 
+	margin-right: 2px;
+ 	margin-left: 2px;
+	z-index: 98;
+}
+
+.barMaistas {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 7px;
+	height: 80px;
+	border-radius: 11px;
+	float: left;
+	padding: 3px; 
+	margin-right: 2px;
+    margin-left: 2px;
+    z-index: 98;
+}
+
+.barVanduo {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 7px;
+	height: 80px;
+	border-radius: 11px;
+	float: left;
+	padding: 3px; 
+	margin-right: 2px;
+    margin-left: 2px;
+    z-index: 98;
+}
+
+.barDeguonis {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 7px;
+	height: 80px;
+	border-radius: 11px;
+	float: left;
+	padding: 3px; 
+	margin-right: 2px;
+    margin-left: 2px;
+    z-index: 98;
+}
+
+#boxSetHealth, #boxSetArmour {
+	width: 100%;
+	height: 7px;
+	border-radius: 11px;
+	background: rgba(110, 110, 110, 0.5);
+	position: relative;
+	bottom: 0;
+	z-index: 97;
+}
+
+#boxSetHunger, #boxSetThirst, #boxSetOxygen {
+	width: 100%;
+	height: 80px;
+	border-radius: 11px;
+	background: rgba(110, 110, 110, 0.5);
+	position: relative;
+	bottom: 0;
+	z-index: 97;
+}
+
+.PirmoIkona {
+	width: 10px;
+	height: 10px;
+	padding-top: 5px;
+	margin-top: -6px;
+	position: absolute;
+	z-index: 99;
+	 padding: 5px; 
+}
+
+.AntroIkona {
+	width: 10px;
+	height: 10px;
+	padding-top: 5px;
+	margin-left: -6px;
+	position: absolute;
+	z-index: 99;
+	 padding: 5px; 
+	transform: rotate(90deg);
+}
+
